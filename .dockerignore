@@ -1,1 +1,58 @@
+# Git files
 .git
+.gitignore
+.github
+
+# Build artifacts
+frontend/appflowy_flutter/build/
+frontend/rust-lib/target/
+frontend/appflowy_flutter/.dart_tool/
+frontend/appflowy_flutter/.flutter-plugins
+frontend/appflowy_flutter/.flutter-plugins-dependencies
+frontend/appflowy_flutter/.packages
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+doc/
+*.md
+!README.md
+
+# Test files
+**/test/
+**/tests/
+**/*_test.dart
+**/*_test.rs
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Node modules (if any)
+node_modules/
+
+# Python cache (if any)
+__pycache__/
+*.pyc
+
+# Docker files from development
+Dockerfile.dev
+docker-compose.dev.yml
+
+# Large unnecessary files
+*.tar.gz
+*.zip
+*.rar
